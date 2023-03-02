@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Inter;
+  src: url("../../Inter-Light.17159028.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../../Inter-Regular.2dfb5813.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../../Inter-Medium.72c620aa.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../../Inter-SemiBold.00a0b722.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../../Inter-Bold.eba9c956.ttf") format("truetype");
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-family: Inter, Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.signin-page {
+  height: 100%;
+  background-color: #e5e5e5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.signin-wrapper {
+  box-sizing: border-box;
+  height: 615px;
+  width: 340px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 6px #00000024;
+}
+
+.signin-header {
+  text-align: center;
+  color: #1e1e1e;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.signin-form {
+  flex-direction: column;
+  display: flex;
+}
+
+.text-input {
+  width: 100%;
+  color: #1e1e1e;
+  background-color: #0000;
+  border: none;
+  border-bottom: 1px solid #3369f3;
+  outline: none;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.text-field {
+  width: 100%;
+  margin: 14px 0;
+  display: inline-block;
+  position: relative;
+}
+
+.signin-form > .text-field:first-child {
+  margin-top: 57px;
+}
+
+.text-field:nth-child(7) {
+  padding-bottom: 62px;
+}
+
+.text-span {
+  pointer-events: none;
+  opacity: .5;
+  padding-top: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  transition: all .2s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-input:focus + .text-span, .text-input:not(:placeholder-shown) + .text-span {
+  opacity: 1;
+  color: #999;
+  transform: scale(.75)translateY(-100%)translateX(-5px);
+}
+
+.signin-form__submit {
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  background-color: #3369f3;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.signup-block {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  display: flex;
+}
+
+a {
+  color: #3369f3;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+}
+
+/*# sourceMappingURL=signin.16f6c284.css.map */

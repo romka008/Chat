@@ -12,6 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "postcss-custom-properties": "^13.1.4",
+    "postcss-import": "^15.1.0",
+    "postcss-url": "^10.1.3"
   }
 }
