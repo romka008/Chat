@@ -32,3 +32,8 @@ html {
     font-family: "Inter", "Helvetica", sans-serif;
     box-sizing: border-box;
 }
+
+a {
+    color: #3369f3;
+    text-decoration: none;
+}

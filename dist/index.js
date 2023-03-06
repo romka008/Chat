@@ -571,21 +571,21 @@ const templateFunction = (0, _handlebarsRuntimeDefault.default).template({
             if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
             return undefined;
         };
-        return '---\r\nid: "root" \r\n---\r\n<html>\r\n    <head>\r\n        <script src="src/index.js" type="module"></script>\r\n    </head>\r\n    <body>\r\n        <div id="' + container.escapeExpression((helper = (helper = lookupProperty(helpers, "id") || (depth0 != null ? lookupProperty(depth0, "id") : depth0)) != null ? helper : container.hooks.helperMissing, typeof helper === "function" ? helper.call(depth0 != null ? depth0 : container.nullContext || {}, {
+        return '---\r\nid: "root" \r\n---\r\n<html>\r\n    <head>\r\n        <title>Чат</title>\r\n        <link rel="stylesheet" href="./static/styles.css" />\r\n        <script src="src/index.js" type="module"></script>\r\n    </head>\r\n    <body>\r\n        <div id="' + container.escapeExpression((helper = (helper = lookupProperty(helpers, "id") || (depth0 != null ? lookupProperty(depth0, "id") : depth0)) != null ? helper : container.hooks.helperMissing, typeof helper === "function" ? helper.call(depth0 != null ? depth0 : container.nullContext || {}, {
             "name": "id",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
-                    "line": 9,
+                    "line": 11,
                     "column": 17
                 },
                 "end": {
-                    "line": 9,
+                    "line": 11,
                     "column": 23
                 }
             }
-        }) : helper)) + '"></div>\r\n    </body>\r\n</html> ';
+        }) : helper)) + '"></div>\r\n        <a href="./static/LogIn/login.html">Вход</a>\r\n        <a href="./static/Signin/signin.html">Регистрация</a>\r\n        <a href="./static/404/404.html">404</a>\r\n        <a href="./static/500/500.html">5**</a>\r\n    </body>\r\n</html>';
     },
     "useData": true
 });
