@@ -4,15 +4,15 @@
   "description": "",
   "scripts": {
     "start": "npm run build && node server.js",
-    "dev": "parcel index.hbs --no-cache --open --port 1234",
-    "build": "parcel index.hbs",
+    "dev": "parcel index.hbs",
+    "build": "parcel build index.hbs",
     "watch": "parcel watch index.hbs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars": "^1.0.2",
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
     "@parcel/config-default": "^2.8.3",
     "express": "^4.18.2",
     "parcel": "^2.8.3",

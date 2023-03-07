@@ -1,17 +1,20 @@
 ---
-id: "root" 
+id: "root"
 ---
 <html>
     <head>
         <title>Чат</title>
         <link rel="stylesheet" href="./static/styles.css" />
-        <script src="src/index.js" type="module"></script>
+        <script type="module" src="src/index.js"></script>
     </head>
     <body>
-        <div id="{{id}}"></div>
-        <a href="./static/LogIn/login.html">Вход</a>
-        <a href="./static/Signin/signin.html">Регистрация</a>
-        <a href="./static/404/404.html">404</a>
-        <a href="./static/500/500.html">5**</a>
+        <main>
+        <div id={{id}}></div>
+        <a href="./static/LogIn/login.hbs">Вход</a>
+        <a href="./static/Signin/signin.hbs">Регистрация</a>
+        <a href="./static/ChatList/chatlist.hbs">Чат</a>
+        <a href="./static/404/404.hbs">404</a>
+        <a href="./static/500/500.hbs">5**</a>
+        </main>
     </body>
 </html>

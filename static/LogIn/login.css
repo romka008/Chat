@@ -83,13 +83,6 @@ body {
     color: #999999;
 }
 
-.text-input:focus + .text-span,
-.text-input:not(:placeholder-shown) + .text-span {
-    opacity: 1;
-    transform: scale(0.75) translateY(-100%) translateX(-5px);
-    color: #999999;
-}
-
 .login-form__submit {
     width: 100%;
     margin-top: 135px;
