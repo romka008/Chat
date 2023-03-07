@@ -12,4 +12,4 @@
 
 В проекте настроен автодеплой из ветки `deploy`
 
-### Актуальная Актуальная версия проекта доступна по [ссылке](https://deploy--earnest-pithivier-bdfcc1.netlify.app/)
+### Актуальная версия проекта доступна по [ссылке](https://deploy--earnest-pithivier-bdfcc1.netlify.app/)
